@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    font-family: tle-default, sans-serif;
+    color: #eae7e2;
+
+
+    background: radial-gradient(circle at 30% 20%, #1f1c18 0%, #0a0a0a 70%);
+}
+
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+    opacity: 0.15;
+    pointer-events: none;
+}

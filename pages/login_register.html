@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Luxury Exchange</title>
+    <link rel="stylesheet" href="../css/login_register.css">
+    <script src="../scripts/javascript/loginregister.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="form-box active" id="login-form"> 
+            <form action="">
+                <h1>Login</h1>
+                <input type="text" placeholder="Email" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <button type="submit">Login</button>
+                <p>Nog geen account? <a href="#" onclick="showForm('register-form')">Registreren</a></p>
+            </form>
+        </div>
+
+        <div class="form-box" id="register-form">
+            <form action="">
+                <h1>Register</h1>
+                <input type="text" placeholder="Username" name="username">
+                <input type="email" placeholder="Email" name="email">
+                <input type="password" placeholder="Password" name="password">
+                <button type="submit">Register</button>
+                <p>Al een account? <a href="#" onclick="showForm('login-form')">Inloggen</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

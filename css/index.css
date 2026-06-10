@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('fonts.css');
 
 body {
     margin: 0;
@@ -47,7 +47,6 @@ body {
 .footer {
     grid-area: footer;
     background-color: black;
-    height: 120px;
 }
 
 .top-photo p {
@@ -92,6 +91,8 @@ body {
     overflow: hidden;
     cursor: pointer;
     background-color: black;
+    text-decoration: none;
+    display: block;
 }
 
 .category-card img {
@@ -164,6 +165,33 @@ body {
     width: 50%;
 }
 
+.product-title {
+    margin: 0 0 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.product-category {
+    margin: 0 0 8px;
+    font-size: 0.85rem;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.product-price {
+    margin: 0 0 16px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.empty-message {
+    grid-column: 1 / -1;
+    padding: 40px;
+    text-align: center;
+    color: #666;
+}
+
 .product-buttons {
     display: flex;
     gap: 15px;
@@ -178,6 +206,10 @@ body {
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-size: 14px;
 }
 
 .product-btn:hover {

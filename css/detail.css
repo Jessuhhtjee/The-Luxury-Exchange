@@ -1,15 +1,13 @@
-/* css/detail.css */
 
-/* Algemeen */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* lichte achtergrond voor luxe gevoel */
+    background-color: #f8f8f8; 
     color: #333;
 }
 
-/* Container voor de detailpagina */
+
 .detail-container {
     max-width: 900px;
     margin: 60px auto;
@@ -19,7 +17,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-/* Titel van het product */
+
 .detail-container h1 {
     font-size: 2.2rem;
     font-weight: 700;
@@ -27,7 +25,6 @@ body {
     color: #111;
 }
 
-/* Afbeelding */
 .detail-container img {
     width: 100%;
     max-width: 600px;
@@ -37,25 +34,25 @@ body {
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
-/* Categorie en prijs */
+
 .detail-container p {
     font-size: 1rem;
     margin: 10px 0;
 }
 
-/* Label sterk maken */
+
 .detail-container p strong {
     color: #555;
     font-weight: 600;
 }
 
-/* Beschrijving */
+
 .detail-container p:last-child {
     line-height: 1.6;
     margin-top: 20px;
 }
 
-/* Responsief */
+
 @media screen and (max-width: 768px) {
     .detail-container {
         margin: 30px 20px;
